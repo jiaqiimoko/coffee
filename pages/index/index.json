@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "usingComponents":{
+    "home":"/pages/home/home",
+    "menu":"/pages/menu/menu",
+    "orders":"/pages/orders/orders",
+    "car":"/pages/car/car",
+    "personal":"/pages/personal/personal"
+  }
 }

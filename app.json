@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/orders/orders",
+    "pages/car/car",
+    "pages/personal/personal"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#212773",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": ""
+      }, 
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "菜单",
+        "iconPath": ""
+      }, 
+      {
+        "pagePath": "pages/orders/orders",
+        "text": "订单",
+        "iconPath": ""
+      }, 
+      {
+        "pagePath": "pages/car/car",
+        "text": "购物车",
+        "iconPath": ""
+      }, 
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": ""
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

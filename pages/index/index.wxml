@@ -3,7 +3,7 @@
   <menu wx:if="{{nowPage=='menu'}}"></menu>
   <orders wx:if="{{nowPage=='orders'}}"></orders>
   <car wx:if="{{nowPage=='car'}}"></car>
-  <personal wx:if="{{nowPage=='personal'}}" isFixedTop="{{isFixedTop}}"></personal>
+  <personal wx:if="{{nowPage=='personal'}}" isFixedTop="{{isFixedTop}}" bindgetNavbarInitTop="getNavbarInitTop"></personal>
 </view>
 
 <view class="tab-bar">

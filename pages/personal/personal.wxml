@@ -1,5 +1,21 @@
 <view class="personal">
-
+  <view class="login-box">登录/注册  > </view>
+  <view class="account">
+    <view class="account-item">
+        <view class="icon-geren icons"></view>
+        我的订单
+    </view>
+    <view class="account-item">我的订单</view>
+    <view class="account-item">我的订单</view>
+    <view class="account-item">我的订单</view>
+    <view class="account-item">我的订单</view>
+    <view class="account-item">我的订单</view>
+    <view class="account-item">我的订单</view>
+    <view class="account-item">我的订单</view>
+    <view class="account-item">我的订单</view>
+  </view>
+  <view class="sales"></view>
+  <view class="sales"></view>
 </view>
 <view class="product-list">
   <view class="column {{isFixedTop?'fixed':''}}" id="navbar">
@@ -8,5 +24,4 @@
     <view class="block">数码电器</view>
     <view class="block">潮玩饰品</view>
   </view>
-{{isFixedTop}}
 </view>

@@ -3,15 +3,37 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 300rpx;
+  height: 500rpx;
   width: 100%;
-  background-color: palevioletred;
+}
+.personal .login-box{
+  background-color: #363A9D;
+  height: 150rpx;
+  color: #fff;
+  font-size: 40rpx;
+  padding-left: 50rpx;
+  padding-top: 35rpx;
+}
+.account {
+  height: 150rpx;
+  margin: 20rpx;
+  padding: 20rpx;
+  position: relative;
+  top: -50rpx;
+  background-color: #fff;
+  border-radius: 15rpx;
+}
+.personal .account .account-item{
+  display: inline-block;
+  width: 19%;
+  margin-left: 1%;
+  height: 50%;
 }
 .product-list{
   position: absolute;
-  top: 305rpx;
+  top: 505rpx;
   left: 0;
-  height: 1300rpx;
+  height: 2300rpx;
   width: 100%;
   background-color: goldenrod;
 }

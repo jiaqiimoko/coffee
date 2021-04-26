@@ -18,9 +18,7 @@ Component({
       wx.createSelectorQuery().in(this).select('#navbar').boundingClientRect((rect) => {
         if (rect && rect.top > 0) {
         var navbarInitTop = parseInt(rect.top);
-        this.setData({
-          navbarInitTop: navbarInitTop
-        });
+        this.triggerEvent('getNavbarInitTop',navbarInitTop);
         }
       }).exec();
     }

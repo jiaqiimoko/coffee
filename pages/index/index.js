@@ -36,11 +36,14 @@ Page({
         "active": "active"
       }
     ],
+    navbarInitTop:0,
     isFixedTop:false
   },
-  /**
-    * 监听页面滑动事件
-    */
+  getNavbarInitTop(val){
+    this.setData({
+      navbarInitTop:val.detail
+    })
+  },
   onPageScroll(e) {
     var scrollTop = parseInt(e.scrollTop); //滚动条距离顶部高度
     //判断'滚动条'滚动的距离 和 '元素在初始时'距顶部的距离进行判断

@@ -1,2 +1,12 @@
-<!--pages/personal/personal.wxml-->
-<text>pages/personal/personal.wxml</text>
+<view class="personal">
+
+</view>
+<view class="product-list">
+  <view class="column {{isFixedTop?'fixed':''}}" id="navbar">
+    <view class="block active">花漾特调</view>
+    <view class="block">生活家具</view>
+    <view class="block">数码电器</view>
+    <view class="block">潮玩饰品</view>
+  </view>
+{{isFixedTop}}
+</view>

@@ -15,11 +15,11 @@
   padding-top: 35rpx;
 }
 .account {
-  height: 150rpx;
+  height: 220rpx;
   margin: 20rpx;
   padding: 20rpx;
   position: relative;
-  top: -50rpx;
+  top: -70rpx;
   background-color: #fff;
   border-radius: 15rpx;
 }
@@ -27,7 +27,18 @@
   display: inline-block;
   width: 19%;
   margin-left: 1%;
-  height: 50%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+.personal .account .account-item .icons{
+  font-size:40rpx;
+  color:#808080;
+}
+.personal .account .account-item .icon-text{
+  font-size:25rpx;
+  display: block;
+  line-height:2.1;
+  color:#808080;
 }
 .product-list{
   position: absolute;
@@ -46,7 +57,6 @@
   justify-content: space-around;
   background: #fff;
   border-bottom: solid 1px #eee;
-  
   top: 0;
   left: 0;
   z-index: 100;

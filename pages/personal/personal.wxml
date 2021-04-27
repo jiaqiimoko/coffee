@@ -2,17 +2,44 @@
   <view class="login-box">登录/注册  > </view>
   <view class="account">
     <view class="account-item">
-        <view class="icon-geren icons"></view>
-        我的订单
+        <view class="iconfont icon-order icons"></view>
+        <view class="icon-text">我的订单</view>
     </view>
-    <view class="account-item">我的订单</view>
-    <view class="account-item">我的订单</view>
-    <view class="account-item">我的订单</view>
-    <view class="account-item">我的订单</view>
-    <view class="account-item">我的订单</view>
-    <view class="account-item">我的订单</view>
-    <view class="account-item">我的订单</view>
-    <view class="account-item">我的订单</view>
+    <view class="account-item">
+        <view class="icon-qianbao iconfont icons"></view>
+        <view class="icon-text">钱包</view>
+    </view>
+    <view class="account-item">
+        <view class="icon-youhuiquan iconfont icons"></view>
+        <view class="icon-text">优惠券</view>
+    </view>
+    <view class="account-item">
+        <view class="icon-yinhangqia iconfont icons"></view>
+        <view class="icon-text">礼品卡</view>
+    </view>
+    <view class="account-item">
+        <view class="icon-yue iconfont icons"></view>
+        <view class="icon-text">账户余额</view>
+    </view>
+    <view class="account-item">
+        <view class="icon-icon-test1 iconfont icons"></view>
+        <view class="icon-text">发票管理</view>
+    </view>
+    <view class="account-item">
+        <view class="icon-lipin iconfont icons"></view>
+        <view class="icon-text">兑换优惠</view>
+    </view>
+    <view class="account-item">
+        <view class="icon-kefu iconfont icons"></view>
+        <view class="icon-text">帮助反馈</view>
+    </view>
+    <view class="account-item">
+        <view class="icon-RectangleCopy iconfont icons"></view>
+        <view class="icon-text">招商加盟</view>
+    </view>
+  </view>
+  <view class="fold-handle">
+
   </view>
   <view class="sales"></view>
   <view class="sales"></view>

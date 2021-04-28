@@ -37,9 +37,7 @@
         <view class="icon-RectangleCopy iconfont icons"></view>
         <view class="icon-text">招商加盟</view>
     </view>
-  </view>
-  <view class="fold-handle">
-
+    <view class="fold-handle">﹀</view>
   </view>
   <view class="sales"></view>
   <view class="sales"></view>

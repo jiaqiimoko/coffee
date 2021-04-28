@@ -15,13 +15,19 @@
   padding-top: 35rpx;
 }
 .account {
-  height: 220rpx;
+  height: 270rpx;
   margin: 20rpx;
   padding: 20rpx;
   position: relative;
   top: -70rpx;
   background-color: #fff;
   border-radius: 15rpx;
+}
+.fold-handle{
+  height: 50rpx;
+  /* background-color: pink; */
+  text-align: center;
+  line-height: 2;
 }
 .personal .account .account-item{
   display: inline-block;

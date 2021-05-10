@@ -6,6 +6,7 @@
   background-color: #fff;
   border-top:1px solid #C0BFC4;
   z-index:500;
+  padding-bottom:calc(10px + env(safe-area-inset-bottom)/2);
 }
 .tab-bar .tab-item{
   float:left;

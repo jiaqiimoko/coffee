@@ -21,23 +21,23 @@
         <view class="icon-yue iconfont icons"></view>
         <view class="icon-text">账户余额</view>
     </view>
-    <view class="account-item">
+    <view class="account-item" wx:if="{{isFold}}">
         <view class="icon-icon-test1 iconfont icons"></view>
         <view class="icon-text">发票管理</view>
     </view>
-    <view class="account-item">
+    <view class="account-item" wx:if="{{isFold}}">
         <view class="icon-lipin iconfont icons"></view>
         <view class="icon-text">兑换优惠</view>
     </view>
-    <view class="account-item">
+    <view class="account-item" wx:if="{{isFold}}">
         <view class="icon-kefu iconfont icons"></view>
         <view class="icon-text">帮助反馈</view>
     </view>
-    <view class="account-item">
+    <view class="account-item" wx:if="{{isFold}}">
         <view class="icon-RectangleCopy iconfont icons"></view>
         <view class="icon-text">招商加盟</view>
     </view>
-    <view class="fold-handle">﹀</view>
+    <view class="fold-handle" bind:tap="tapFold">{{isFold ? '﹀' : '︿'}}</view>
   </view>
   <view class="sales"></view>
   <view class="sales"></view>

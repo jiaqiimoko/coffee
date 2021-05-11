@@ -8,16 +8,18 @@
 }
 .personal .login-box{
   background-color: #363A9D;
-  height: 150rpx;
+  height: 300rpx;
+  line-height: 7;
   color: #fff;
   font-size: 40rpx;
   padding-left: 50rpx;
   padding-top: 35rpx;
 }
 .account {
-  height: 270rpx;
+  /* height: 270rpx; */
   margin: 20rpx;
   padding: 20rpx;
+  padding-bottom: 0;
   position: relative;
   top: -70rpx;
   background-color: #fff;
@@ -48,7 +50,7 @@
 }
 .product-list{
   position: absolute;
-  top: 505rpx;
+  top: 605rpx;
   left: 0;
   height: 2300rpx;
   width: 100%;
@@ -67,7 +69,7 @@
   left: 0;
   z-index: 100;
  }
-  
  .product-list .column.fixed {
   position: fixed;
+  top: calc(160rpx + env(safe-area-inset-top));
  }
